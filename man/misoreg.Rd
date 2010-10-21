@@ -48,7 +48,9 @@ equal for each line.
 \author{
   Florian Klinglmueller <float_at_lefant.net>
   Part of this function is C code that has been ported by Korbinian Strimmer from
-  R code originally written by Kaspar Rufibach. 
+  R code originally written by Kaspar Rufibach. Many thanks also to
+  Romain Francois and Dirk Eddelbuettel for helping moving the code to
+  the new Rcpp API.
 }
 \examples{
 x <- matrix(rnorm(4000),nc=4)
